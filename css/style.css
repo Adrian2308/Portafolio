@@ -1,0 +1,40 @@
+:root{
+    --white: #FFF;
+    --black: #000;
+    --color-1: #131A40;
+    --color-2: #273273;
+    --color-3: #4E64A6;
+    --color-4: #829FD9;
+    --color-5: #99B7F9;
+}
+html{
+    background-color: var(--color-2);
+}
+
+/*              ID's              */
+
+
+
+
+
+/*            Classes              */
+.bg-body-color{
+    background-color: var(--color-1);    
+}
+.name{
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-left: 20px;
+}
+.nav-icon{
+    width: 50px;
+    height: auto;
+}
+.white-l{
+    color: var(--white) !important
+}
+
